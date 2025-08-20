@@ -7,6 +7,7 @@
 // longlong 更长整型。 8
 // float 单精度浮点. 4
 // double 双精度浮点. 8
+//<Plus0819>
 extern int g;//调用share.c中声明的全局变量
 #include<stdio.h>
 int a=10;

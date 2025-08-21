@@ -1,5 +1,7 @@
 //关键字
 //typedef 类型重命名
+
+//<Plus0820>
 #include<stdio.h>
 typedef unsigned int unit;
 typedef struct Node
@@ -24,4 +26,4 @@ int main()
 //static修饰局部变量时，局部变量出了作用域不会被销毁，static改变了变量的存储位置（把局部改存到静态区）eg static int a=1;
 //static修饰全局变量时，全局变量原本具有外部链接属性，若有static，则其从外部链接属性变为内部链接属性，无法extern (也放到静态区)
 //static修饰函数时，函数原本具有外部链接属性，若有static，则其从外部链接属性变为内部链接属性，无法extern
-// 栈区(局部变量)  堆区() 静态区(静态变量)[知道程序销毁才会消失]
+// 栈区(局部变量，形式参数，保存值)  堆区(动态内存 malloc,free,calloc，realloc) 静态区(静态变量,全局变量)[知道程序销毁才会消失]

@@ -2,6 +2,7 @@
 // while循环 for循环 do while循环
 // goto语句（goto xxx;    xxx: 到goto xxx;会跳转到xxx:的下一行(不能跨函数跳转)
 //<Plus0818>分支和循环语句
+//<Plus0820>tips:选中+tab 集体右移；选中+shift+tab 集体左移
 
 // C语句分为5类：1.表达式语句 2.函数调用语句 3.控制语句 4.复合语句 5.空语句
 // 本文件涉及3.控制语句
@@ -22,9 +23,9 @@ int main()
 
   int day = 0;
   scanf("%d", &day);
-  switch (day) // switch要求必须整形表达式
+  switch (day) // switch要求必须整形表达式（可以是字符，因为字符也是以ASCII码存储）
   {
-  case 1: // day==1的case,case后必须是整形常量表达式（可以是字符，因为字符也是以ASCII码存储
+  case 1: // day==1的case,case后必须是整形常量表达式（可以是字符，因为字符也是以ASCII码存储）
     printf("Monday\n");
     break; // 不加break就会把后面的输出全走一遍
   case 2:
@@ -49,7 +50,8 @@ int main()
   case 7:
     printf("weekend\n");
     break;
-  default: // 但每个switch最多一个default子句
+  default: // 但每个switch最多一个default子句,
+           // default可以放在任意case前后，不影响判别结果。case表达式也不要求顺序
     printf("Error\n");
     break; // 报错程序，当前面都不满足时
   }

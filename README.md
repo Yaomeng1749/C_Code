@@ -8,4 +8,4 @@ This respository have noted the process of learning C since beginner.[MAC,Vs cod
 20250820:学习了函数的迭代与递归以及一些细节部分[test16]，同时更新了test8,test9,test15.
 20250821:学习了数组的知识,诸如一维二维数组的性质和Bubble Sort等[test17],编辑了第一轮练习代码[train01],编辑了一些细枝末节的知识都测试[test0],实现了第一个应用程序集--三子棋test18:[test.c,game.c,test.h],同时更新了test3,test4,test7,test15,test16.
 20250822:实现了第二个项目--扫雷test19[test.c,game.c,test.h].
-202508223:学习了操作符[test20]和指针[test21],编辑了第二轮练习代码[train02]，更新了test12.
+202508223:学习了操作符[test20]和指针[test21],编辑了第二轮练习代码[train02]，更新了test2,test12.
